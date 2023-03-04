@@ -1,0 +1,115 @@
+header{
+    display: inline-block;
+    font-weight: bolder;
+}
+.ligne1{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+img{
+    height: 70px;
+    width: 80px;
+    margin: 20px;
+}
+.image{
+    width: 90px;
+    height: 100px;
+}
+#block{
+    display: flexbox;
+    margin-top: 30px;
+}
+.titre{
+    display: flex;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    width: 180px;
+    border-radius: 8px;
+    justify-content: center;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 80px;
+    height: 30px;
+    border: 1px;
+    border-style: solid;
+}
+.quant{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    margin-top: 10px;
+}
+.somme{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    border: 1px;
+    border-style: solid;
+}
+.quantite{
+    display: flex;
+    justify-items: center;
+    justify-content: flex-start;
+}
+.aime{
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    border: none;
+    color: brown;
+    font-size: 22px;
+}
+#poubelle1{
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    border: none;
+    color: red;
+    font-size: 20px;
+}
+#poubelle2{
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    border: none;
+    color: red;
+    font-size: 20px;
+}
+#poubelle3{
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    border: none;
+    color: red;
+    font-size: 20px;
+}
+#poubelle4{
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    border: none;
+    color: red;
+    font-size: 20px;
+}
+#poubelle5{
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    border: none;
+    color: red;
+    font-size: 20px;
+}
+.TotGeneral{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 60px;
+}
+

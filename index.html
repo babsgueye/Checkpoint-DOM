@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/947d19bcae.js" crossorigin="anonymous"></script>
+    <title>Checkpoint DOM</title>
+</head>
+<body>
+    <header>
+        <div>
+            WELCOME TO...
+        </div>
+        <div>
+        <img src="https://drop.philharmoniedeparis.fr/CMDM/CMDM000000100/CMIM00002325-%C2%A9-Cite-de-la-musique-Albert-Giordan.jpg" alt="Mon image">
+        </div>
+        <div>
+           ...BAB'S SHOP !
+        </div>
+    </header>
+    <main>
+        <div class="container ligne1">
+        <div class="row">
+            <div class="col-3">
+ <p> Désignations</p>               
+            </div>
+            <div class="col-3">
+<p> Prix Unitaires (en F CFA)</p>
+            </div>
+            <div class="col-3">
+<p> Quantités</p>
+            </div>
+            <div class="col-3">
+<p> Prix Totaux (en F CFA)</p>
+            </div>
+            
+    </div>
+</div>
+<div class="container">
+<div class="row" id="article">
+    <div class="col-3">
+        <img class="image" src="https://www.stars-music.fr/medias/eastone/str70-blk-3s-rw-hd-6-117252.png" alt="mon image">
+        <div class="titre">STR70 (PUR) - black</div>
+    </div>
+    <div class="col-3">
+        <div class="price">79000</div> 
+    </div>
+    <div class="col-3" id="block">
+        <button class="aime"> <i class="fa-sharp fa-solid fa-heart"></i></button> 
+        <div class="quantite">
+            <button class="btnplus">+</button>
+            <p class="quant">0</p>
+            <button id="btnmoins">-</button>
+        </div>
+        <button class="poubel1" id="poubelle1"><i class="fa-sharp fa-solid fa-trash"></i></button>
+    </div>
+    <div class="col-3">
+        <div class="somme">0</div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row" id="article">
+        <div class="col-3">
+<img class="image" src="https://www.stgd.ch/1573-large_default/st83ra-car-candy-red-guitare-electrique-prodipe-guitars.jpg" alt="mon image">
+<div class="titre">ST83RA CAR - red</div>
+        </div>
+        <div class="col-3">
+            <div class="price">89000</div>
+        </div>
+        <div class="col-3" id="block">
+            <button class="aime"> <i class="fa-sharp fa-solid fa-heart"></i></button> 
+            <div class="quantite">
+                <button class="btnplus">+</button>
+                <p class="quant">0</p>
+                <button class="btnmoins">-</button>
+            </div>
+                <button class="poubel2" id="poubelle2"><i class="fa-sharp fa-solid fa-trash"></i></button>
+        </div>
+        <div class="col-3">
+            <div class="somme">0</div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row" id="article">
+        <div class="col-3">
+<img class="image" src="https://www.paul-beuscher.com/Files/104340/Img/15/ibanez-GRGM-21-M-JB-zoom.jpg" alt="mon image">
+<div class="titre">GRGRM21M - JB</div>
+        </div>
+        <div class="col-3">
+            <div class="price">99000</div>
+        </div>
+        <div class="col-3" id="block">
+            <button class="aime"> <i class="fa-sharp fa-solid fa-heart"></i></button> 
+            <div class="quantite">
+                <button class="btnplus">+</button>
+                <p class="quant">0</p>
+                <button class="btnmoins">-</button>
+            </div>
+                <button class="poubel3" id="poubelle3"><i class="fa-sharp fa-solid fa-trash"></i></button>
+        </div>
+        <div class="col-3">
+            <div class="somme">0</div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row" id="article">
+        <div class="col-3">
+<img class="image" src="https://store.sonomusic.tn/1332-medium_default/guitare-classique-39-marron-skylark-avec-etui.jpg" alt="mon image">
+<div class="titre">3/4 SKYLARK MCG104</div>
+        </div>
+        <div class="col-3">
+            <div class="price">59000</div>
+        </div>
+        <div class="col-3" id="block">
+            <button class="aime"> <i class="fa-sharp fa-solid fa-heart"></i></button> 
+            <div class="quantite">
+                <button class="btnplus">+</button>
+                <p class="quant">0</p>
+                <button class="btnmoins">-</button>
+            </div>
+                <button class="poubel4" id="poubelle4"><i class="fa-sharp fa-solid fa-trash"></i></button>
+        </div>
+        <div class="col-3">
+            <div class="somme">0</div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row" id="article">
+        <div class="col-3">
+            <img class="image" src="https://images.archambault.ca/images/PG/3243/3243224-gf.jpg?404=default&w=400" alt="">
+            <div class="titre">ESC 120A</div>
+        </div>
+        <div class="col-3">
+            <div class="price">69000</div>
+        </div>
+        <div class="col-3" id="block">
+            <button class="aime"> <i class="fa-sharp fa-solid fa-heart"></i></button> 
+            <div class="quantite">
+                <button class="btnplus">+</button>
+                <p class="quant">0</p>
+                <button class="btnmoins">-</button>
+            </div>
+            <button class="poubel5" id="poubelle5"><i class="fa-sharp fa-solid fa-trash"></i></button>
+        </div>  
+    <div class="col-3">
+    <div class="somme">0</div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-9">
+<p class="TotGeneral">TOTAL GENERAL (en F CFA)</p>
+        </div>
+        <div class="col-3">
+            <div class="somme" id="somTotale">0</div>
+        </div>
+    </div>
+</div>
+    </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
